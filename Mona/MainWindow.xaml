@@ -1,0 +1,15 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Mona"
+        mc:Ignorable="d"
+        Title="Mona" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="button" Content="Speak" HorizontalAlignment="Left" Margin="217,154,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="51" Margin="43,32,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="428" />
+        <ProgressBar HorizontalAlignment="Left" Height="10" VerticalAlignment="Top" Width="100" Margin="55,284,0,0" Value="80"/>
+
+    </Grid>
+</Window>
